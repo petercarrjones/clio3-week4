@@ -2,19 +2,28 @@
 
 var total=[]
 
-function range(start,end,step){
-	if (step >= 0){
+function range(start, end, step){
+	if (range(arguments.length) == 2){
 		for(var i = start; i <= end; i++){
-		//(start+i) == i;
+		//(start+i) == 
 		total.push(i);
-		}
+	return total
+	}
+
+	else if	(step >= 0){
+		for(var i = start; i <= end; i++){
+		//(start+i) == 
+		total.push(i);
+		return total
+	}
 	else if (step < 0){
-		for(var i = start; i <= end; i++){
-		//(start+i) == i;
+		for(var i = start; i => end; i++){
+		
 		total.push(i);
+		return total
 		}	
 	}
-	return total
+	
 }
 
 function sum(total){
@@ -24,6 +33,6 @@ function sum(total){
 	return count
 }
 
-console.log(range(1,10))
+console.log(range(1, 10, 2))
 
 //console.log(sum(range(1, 10)));
