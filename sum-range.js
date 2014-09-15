@@ -3,22 +3,21 @@
 var total=[]
 
 function range(start, end, step){
-	if (range(arguments.length) == 2){
+	if range.length < 3){
 		for(var i = start; i <= end; i++){
-		//(start+i) == 
+		
 		total.push(i);
 	return total
 	}
 	}
 	else if (step < 0){
-		for(var i = start; i >= end; i++){
+		for(var i = start; i >= end; i+step){
 		
 		total.push(i);
 		return total
 		}	
 	else (step >= 0){
-		for(var i = start; i <= end; i++){
-		//(start+i) == 
+		for(var i = start; i <= end; i+step){
 		total.push(i);
 		return total	
 	}
