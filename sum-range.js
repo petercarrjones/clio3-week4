@@ -13,7 +13,7 @@ function range(start,end){
 function sum(total){
 	var count = 0
 	for (var i = 0; i < total.length; i++)
-		count = total.charAt(i)+count;
+		count = total[i]+count;
 	return count
 }
 
