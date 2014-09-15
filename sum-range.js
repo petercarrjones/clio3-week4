@@ -3,10 +3,10 @@
 var total=[]
 
 function range(start,end){
-	total.push (start)
-	for(var i = start; i >= end; i++)
-		(start+1)===i
-		total.push=[i];
+	for(var i = 0; i <= end; i++){
+		(start+i) == i;
+		total.push(i);
+	}
 	return total
 }
 
