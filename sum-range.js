@@ -9,19 +9,18 @@ function range(start, end, step){
 		total.push(i);
 	return total
 	}
-
-	else if	(step >= 0){
-		for(var i = start; i <= end; i++){
-		//(start+i) == 
-		total.push(i);
-		return total
 	}
 	else if (step < 0){
-		for(var i = start; i => end; i++){
+		for(var i = start; i >= end; i++){
 		
 		total.push(i);
 		return total
 		}	
+	else (step >= 0){
+		for(var i = start; i <= end; i++){
+		//(start+i) == 
+		total.push(i);
+		return total	
 	}
 	
 }
