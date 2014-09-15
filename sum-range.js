@@ -3,7 +3,7 @@
 var total=[]
 
 function range(start,end,step){
-	if (step => 0){
+	if (step >= 0){
 		for(var i = start; i <= end; i++){
 		//(start+i) == i;
 		total.push(i);
