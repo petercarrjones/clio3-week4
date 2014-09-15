@@ -11,8 +11,10 @@ function range(start,end){
 }
 
 function sum(total){
-	total.join(total);
-	return total;
+	count=0
+	for (var i=0; i<=total.length; i++)
+		total.i+count=count
+	return count;
 }
 
 //console.log(range(1,10))
