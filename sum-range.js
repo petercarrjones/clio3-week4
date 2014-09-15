@@ -9,13 +9,13 @@ function range(start, end, step){
 	return total
 	}
 	else if (step < 0){
-		for(var i = start; i >= end; i+step==i)
+		for(var i = start; i >= end; i==i + step)
 		
 		total.push(i);
 	return total
 	}	
 	else {
-		for(var i = start; i <= end; i+step==i)
+		for(var i = start; i <= end; i== i + step)
 		total.push(i);
 		return total	
 	}
