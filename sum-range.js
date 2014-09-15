@@ -3,7 +3,7 @@
 var total=[]
 
 function range(start, end, step){
-	if range.length < 3{
+	if (range.length < 3){
 		for(var i = start; i <= end; i++){
 		
 		total.push(i);
@@ -16,7 +16,7 @@ function range(start, end, step){
 		total.push(i);
 		return total
 		}	
-	else (step >= 0){
+	else {
 		for(var i = start; i <= end; i+step){
 		total.push(i);
 		return total	
