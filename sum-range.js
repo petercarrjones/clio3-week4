@@ -1,8 +1,12 @@
 /* Sum of a Range*/
-function range(start, end){
-	var total=[start]
-	for(var i=start; i=>end; i++)
-		i+1=total.push;
+
+var total=[]
+
+function range(start,end){
+	for(var i = start; i <= end; i++){
+		//(start+i) == i;
+		total.push(i);
+	}
 	return total
 }
 
