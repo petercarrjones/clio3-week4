@@ -4,20 +4,18 @@ var total=[]
 
 function range(start, end, step){
 	if (range.length < 3){
-		for(var i = start; i <= end; i++){
+		for(var i = start; i <= end; i++)
+			total.push(i);
+	return total
+	}
+	else if (step < 0){
+		for(var i = start; i >= end; i+step=i)
 		
 		total.push(i);
 	return total
-	}
-	}
-	else if (step < 0){
-		for(var i = start; i >= end; i+step){
-		
-		total.push(i);
-		return total
-		}	
+	}	
 	else {
-		for(var i = start; i <= end; i+step){
+		for(var i = start; i <= end; i+step=i)
 		total.push(i);
 		return total	
 	}
