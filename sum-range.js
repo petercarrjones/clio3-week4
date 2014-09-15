@@ -10,8 +10,11 @@ function range(start,end){
 	return total
 }
 
-function Sum(){}
+function Sum(total){
+	total.join(total);
+	return total;
+}
 
-console.log(range(1,10))
+//console.log(range(1,10))
 
-//console.log(sum(range(1, 10)));
+console.log(sum(range(1, 10)));
