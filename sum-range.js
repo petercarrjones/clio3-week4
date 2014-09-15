@@ -10,8 +10,13 @@ function range(start,end){
 	return total
 }
 
-function Sum(){}
+function sum(total){
+	var count = 0
+	for (var i = 0; i < total.length; i++)
+		count = total[i]+count;
+	return count
+}
 
-console.log(range(1,10))
+//console.log(range(1,10))
 
-//console.log(sum(range(1, 10)));
+console.log(sum(range(1, 10)));
