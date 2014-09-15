@@ -10,7 +10,7 @@ function range(start,end){
 	return total
 }
 
-function Sum(total){
+function sum(total){
 	total.join(total);
 	return total;
 }
