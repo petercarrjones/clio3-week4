@@ -5,21 +5,18 @@ var total=[]
 function range(start, end, step){
 	if (range.length < 3){
 		for(var i = start; i <= end; i++)
-			total.push(i);
-	return total
+		total.push(i);
 	}
 	else if (step < 0){
 		for(var i = end; i >= start; i==i + step)
-		
 		total.push(i);
-	return total
 	}	
 	else {
 		for(var i = start; i <= end; i== i + step)
 		total.push(i);
-		return total	
+		
 	}
-	
+	return total	
 }
 
 function sum(total){
