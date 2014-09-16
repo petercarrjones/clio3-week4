@@ -2,12 +2,21 @@
 
 var total=[]
 
-function range(start,end){
-	for(var i = start; i <= end; i++){
-		//(start+i) == i;
+function range(start, end, step){
+	if (range.length < 3){
+		for(var i = start; i <= end; i++)
 		total.push(i);
 	}
-	return total
+	else if (step < 0){
+		for(var i = end; i >= start; i==i + step)
+		total.push(i);
+	}	
+	else {
+		for(var i = start; i <= end; i== i + step)
+		total.push(i);
+		
+	}
+	return total	
 }
 
 function sum(total){
@@ -17,6 +26,6 @@ function sum(total){
 	return count
 }
 
-//console.log(range(1,10))
+console.log(range(1, 10, 2))
 
-console.log(sum(range(1, 10)));
+//console.log(sum(range(1, 10)));
