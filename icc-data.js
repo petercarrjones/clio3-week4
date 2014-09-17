@@ -13,7 +13,7 @@ var docket1 =
   "Title" :  "Opinion of the Commission",
   "Citation" :  "1 Ind. Cl. Comm. 1",
   "Pages"  :  "19"
-  "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p001.pdf"
+  "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p001.pdf",
   "Decision" : [
 	{
 	"type" : "iccCreation",
@@ -31,7 +31,7 @@ var docket1 =
   "Title" :  "Opinion of the Commission",
   "Citation" :  "1 Ind. Cl. Comm. 20",
   "Pages"  :  "11"
-  "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p020.pdf"
+  "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p020.pdf",
   "Decision" : [
 	{
 	"type" : "resJudicata"
@@ -48,7 +48,7 @@ var docket1 =
   "Title" :  "Opinion of the Commission",
   "Citation" :  "1 Ind. Cl. Comm. 31",
   "Pages"  :  "12"
-  "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p031.pdf"
+  "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p031.pdf",
   "Decision" : [
 	{
 	"type" : "resJudicata"
