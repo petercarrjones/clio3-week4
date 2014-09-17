@@ -9,6 +9,6 @@ var arrays = [[1, 2, 3], [4, 5], [6]];
   return current;
 }*/
 arrays.reduce(function(combine,start){
-	return combine.concat.start;
-}
-console.log(arrays)
+	return combine.concat(start);
+})
+console.log(arrays.reduce)
