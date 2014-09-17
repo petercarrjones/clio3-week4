@@ -4,7 +4,61 @@ function Decision(type) {
   this.type = type;
 }
 
+{
+  "Plaintiff" :  "Western and Eastern Cherokee Indians",
+  "Defendent" :  "United States of America",
+  "Docket" : "2",
+  "Date" : "1948 11 15",
+  "Title" :  "Opinion of the Commission",
+  "Citation" :  "1 Ind. Cl. Comm. 1",
+  "Pages"  :  "19"
+  "Url" : "http://digital.library.okstate.edu/icc/v01/iccv01p001.pdf"
+  "Decision" : [
+	{
+	"type" : "iccCreation"
+	"type" : "resJudicata
+	}
+   ],
+  "Dissent" : true
+}
 
+{
+  "Plaintiff" :  "Western Cherokee Indians",
+  "Defendent" :  "United States of America",
+  "Docket" : "3",
+  "Date" : "1948 11 15",
+  "Title" :  "Opinion of the Commission",
+  "Citation" :  "1 Ind. Cl. Comm. 20",
+  "Pages"  :  "11"
+  "Url" : "http://digital.library.okstate.edu/icc/v01/iccv01p020.pdf"
+  "Decision" : [
+	{
+	"type" : "resJudicata"
+	}
+   ],
+  "Dissent" : true
+}
+
+{
+  "Plaintiff" :  "Eastern Cherokee Indians",
+  "Defendent" :  "United States of America",
+  "Docket" : "5",
+  "Date" : "1948 11 15",
+  "Title" :  "Opinion of the Commission",
+  "Citation" :  "1 Ind. Cl. Comm. 31",
+  "Pages"  :  "12"
+  "Url" : "http://digital.library.okstate.edu/icc/v01/iccv01p031.pdf"
+  "Decision" : [
+	{
+	"type" : "resJudicata"
+	}
+   ],
+  "Dissent" : true
+}
+
+var iccCreationDecision = new Decision("iccCreation");
+/*"I-II" - Creation, Jurisdiction, Responsibilities of the Indian 
+Claims Commission */
 
 var causeOfActionDecision = new Decision("causeOfAction");
 /*"III-V" - Cause of Action, Accrual of Cause of Action, New Cause of 
@@ -30,16 +84,13 @@ var titleDecision = new Decision("title");
 /*Title, Aboriginal Title, Recognized Title. Land Grants, 
 Survey Errors */
 
+var resJudicataDecision = new Decision("resJudicata");
+/*"VI-XI" - Standlng Before the Comnission, Parties, Successor in 
+Interest */
 
 
 
 
 
 
-
-
-
-
-
-
-console.log(blackRabbit.type);
+console.log(Decision.iccCreation);
