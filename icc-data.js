@@ -12,7 +12,7 @@ var docket1 =
   "Date" : "1948 11 15",
   "Title" :  "Opinion of the Commission",
   "Citation" :  "1 Ind. Cl. Comm. 1",
-  "Pages"  :  "19"
+  "Pages"  :  "19",
   "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p001.pdf",
   "Decision" : [
 	{
@@ -23,6 +23,7 @@ var docket1 =
   "Dissent" : true
 }
 
+var docket3 =
 {
   "Plaintiff" :  "Western Cherokee Indians",
   "Defendent" :  "United States of America",
@@ -30,7 +31,7 @@ var docket1 =
   "Date" : "1948 11 15",
   "Title" :  "Opinion of the Commission",
   "Citation" :  "1 Ind. Cl. Comm. 20",
-  "Pages"  :  "11"
+  "Pages"  :  "11",
   "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p020.pdf",
   "Decision" : [
 	{
@@ -40,6 +41,7 @@ var docket1 =
   "Dissent" : true
 }
 
+var docket5 = 
 {
   "Plaintiff" :  "Eastern Cherokee Indians",
   "Defendent" :  "United States of America",
@@ -47,7 +49,7 @@ var docket1 =
   "Date" : "1948 11 15",
   "Title" :  "Opinion of the Commission",
   "Citation" :  "1 Ind. Cl. Comm. 31",
-  "Pages"  :  "12"
+  "Pages"  :  "12",
   "Url" : "http:\/\/digital.library.okstate.edu\/icc\/v01\/iccv01p031.pdf",
   "Decision" : [
 	{
