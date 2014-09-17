@@ -15,8 +15,8 @@ function Decision(type) {
   "Url" : "http://digital.library.okstate.edu/icc/v01/iccv01p001.pdf"
   "Decision" : [
 	{
-	"type" : "iccCreation"
-	"type" : "resJudicata
+	"type" : "iccCreation",
+	"type" : "resJudicata"
 	}
    ],
   "Dissent" : true
